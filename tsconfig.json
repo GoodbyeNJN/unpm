@@ -1,0 +1,10 @@
+{
+    "extends": "@goodbyenjn/configs/tsconfigs/base",
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["./*", "src", "types", "tests"],
+    "exclude": ["dist"]
+}
